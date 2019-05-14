@@ -31,3 +31,95 @@
     transform: rotate(360deg);
   }
 }
+
+.logo {
+  width: auto;
+  height: 100%;
+}
+
+td {
+  padding: 0em 0.5em;
+}
+
+.demo {
+  width: 100%;
+  height: 100%;
+  border: none;
+  -webkit-transform: translateY(5%) scale(0.75);
+  transform: translateY(5%) scale(0.75);
+}
+
+.demo2 {
+  -webkit-transform: translateY(5%) scale(0.75);
+  transform: translateY(5%) scale(0.75);
+}
+
+.full-screen {
+  height: 100vh;
+}
+.relative {
+  position: relative;
+}
+
+.demo-link {
+  font-size: 2.2rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 2rem;
+  text-align: center;
+  -webkit-transform: translateY(5%) scale(0.75);
+  transform: translateY(5%) scale(0.75);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: bold;
+}
+
+a#show-demo2:hover {
+  color: gray;
+  text-decoration: none;
+}
+.zoom-in-right-fade-out {
+  z-index: 1000;
+  -webkit-animation-name: zoom-in-right, fade-out;
+  animation-name: zoom-in-right, fade-out;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.75, 0, 0.25, 1);
+  animation-timing-function: cubic-bezier(0.75, 0, 0.25, 1);
+}
+
+.hide-demo {
+  position: fixed;
+  right: 15px;
+  top: 0;
+  height: 70px;
+  padding: 0 15px;
+  color: #fcd82e;
+  background-color: #286ec3;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  z-index: 1000;
+}
+
+a:hover {
+  cursor: pointer;
+}
