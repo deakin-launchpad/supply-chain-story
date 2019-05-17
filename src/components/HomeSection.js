@@ -12,10 +12,10 @@ export default class HomeSection extends Component {
             style={{ marginBottom: "30px" }}
           >
             <p className="content-heading no-margin" style={styles.fontBold}>
-              Mental Strength
+              Accurate suppy chain
             </p>
             <p className="content-text" style={styles.fontNormal}>
-              How should we preserve it?
+              Based on Block chain
             </p>
           </div>
           <div class="col-sm-10">

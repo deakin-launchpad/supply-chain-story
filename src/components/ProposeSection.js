@@ -8,13 +8,13 @@ export default class ProposeSection extends Component {
       <div style={styles}>
         <div className="row" style={{ justifyContent: "center" }}>
           <div className="col-md-8 col-md-offset-2">
-            <p className="content-heading no-margin" style={styles.fontBold}>
-              Proposed Patient Journey
+            <Updatep className="content-heading no-margin" style={styles.fontBold}>
+             Inventory 
             </p>
             <p className="content-text" style={styles.fontNormal}>
-              Different Modules as a part of app
-              <br /> Available healthy recipes
-              <br /> Interactive quizzes
+             Can see status of order
+              <br /> Location
+              <br /> Quality
             </p>
           </div>
           <div class="col-sm-10">

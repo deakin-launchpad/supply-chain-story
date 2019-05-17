@@ -10,10 +10,10 @@ export default class IntroSection extends Component {
         <div className="row" style={{ justifyContent: "center" }}>
           <div className="col-md-8 col-md-offset-2">
             <p className="content-heading no-margin" style={styles.fontBold}>
-              MEMORY RECALL
+              Suppy Chain 
             </p>
             <p className="content-text" style={styles.fontNormal}>
-              Challenge your brain to remember better
+              We change you logistics
             </p>
             <SectionLink section="history">
               {link => (

@@ -12,14 +12,14 @@ export default class CurrentSection extends Component {
             style={{ marginBottom: "30px" }}
           >
             <p className="content-heading no-margin" style={styles.fontBold}>
-              Read Healthy to stay mentally fit
+              Supply chain
             </p>
             <p className="content-text" style={styles.fontNormal}>
-              Lets maintin our mental health
+              Based on block chain
               <br />
-              Lets be reactive not preventative
+              Increased transaction transperency
               <br />
-              Current habbits may be unhealthy and will be expensive or invasive
+              Current vulnerablities in security will be expensive or invasive
               in future
             </p>
           </div>
