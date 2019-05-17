@@ -12,10 +12,10 @@ export default class CurrentSection extends Component {
             style={{ marginBottom: "30px" }}
           >
             <p className="content-heading no-margin" style={styles.fontBold}>
-              Eating smart is to best way to maintain it
+              Read Healthy to stay mentally fit
             </p>
             <p className="content-text" style={styles.fontNormal}>
-              Lets eat healthy and maintin our health
+              Lets maintin our mental health
               <br />
               Lets be reactive not preventative
               <br />

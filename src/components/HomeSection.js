@@ -12,7 +12,7 @@ export default class HomeSection extends Component {
             style={{ marginBottom: "30px" }}
           >
             <p className="content-heading no-margin" style={styles.fontBold}>
-              HEALTH is Wealth
+              Mental Strength
             </p>
             <p className="content-text" style={styles.fontNormal}>
               How should we preserve it?

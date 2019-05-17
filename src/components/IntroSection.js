@@ -10,10 +10,10 @@ export default class IntroSection extends Component {
         <div className="row" style={{ justifyContent: "center" }}>
           <div className="col-md-8 col-md-offset-2">
             <p className="content-heading no-margin" style={styles.fontBold}>
-              EAT SMART
+              MEMORY RECALL
             </p>
             <p className="content-text" style={styles.fontNormal}>
-              We make your health our priority
+              Challenge your brain to remember better
             </p>
             <SectionLink section="history">
               {link => (
@@ -49,7 +49,7 @@ const styles = {
   fontSize: "4em",
   scrollBehavior: "smooth",
   position: "relative",
-  backgroundImage: `url(${bgIntro})`,
+  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bgIntro})`,
   backgroundSize: "cover",
   fontNormal: {
     fontSize: "2.2rem"
