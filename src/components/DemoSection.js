@@ -22,6 +22,7 @@ export default class DemoSection extends Component {
             className={`demo demo2 `}
             style={this.state.show ? framStyle : {}}
             onClick={this.fullScreen}
+            title="launchdemo"
           />
           <a
             id="show-demo2"
