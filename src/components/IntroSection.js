@@ -49,7 +49,7 @@ const styles = {
   fontSize: "4em",
   scrollBehavior: "smooth",
   position: "relative",
-  backgroundImage: `url(${bgIntro})`,
+  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${bgIntro})`,
   backgroundSize: "cover",
   fontNormal: {
     fontSize: "2.2rem"
