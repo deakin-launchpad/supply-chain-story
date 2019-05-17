@@ -1,12 +1,12 @@
 version: "2"
 services:
   app:
-    container_name: memory-recall-story
-    image: deakinlaunchpad/memory-recall-story-dev
+    container_name:supply-chain-story
+    image: deakinlaunchpad/supplychain-dev
     restart: always
 
     command: bash -c "npm start"
     ports:
-      - "4002:4002"
+      - "4008:4008"
     
       
