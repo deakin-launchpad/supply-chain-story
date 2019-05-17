@@ -8,11 +8,11 @@ export default class ProposeSection extends Component {
       <div style={styles}>
         <div className="row" style={{ justifyContent: "center" }}>
           <div className="col-md-8 col-md-offset-2">
-            <Updatep className="content-heading no-margin" style={styles.fontBold}>
-             Inventory 
+            <p className="content-heading no-margin" style={styles.fontBold}>
+             Proposed inventory 
             </p>
             <p className="content-text" style={styles.fontNormal}>
-             Can see status of order
+            Can see status of order
               <br /> Location
               <br /> Quality
             </p>
