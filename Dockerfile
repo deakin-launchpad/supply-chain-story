@@ -7,3 +7,5 @@ EXPOSE 3014
 
 RUN npm install 
 
+CMD ["npm","start" ]
+
