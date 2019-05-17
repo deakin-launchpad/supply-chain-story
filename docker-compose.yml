@@ -1,11 +1,12 @@
 version: "2"
 services:
   app:
-    container_name: eatsmart-story
-    image: deakinlaunchpad/eatsmart-story-dev
+    container_name: memory-recall-story
+    image: deakinlaunchpad/memory-recall-story-dev
     restart: always
 
     command: bash -c "npm start"
     ports:
       - "3014:3014"
     
+      
