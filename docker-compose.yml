@@ -7,10 +7,6 @@ services:
 
     command: bash -c "npm start"
     ports:
-<<<<<<< HEAD
       - "4008:4008"
-=======
-      - "3014:3014"
->>>>>>> e8270a5539aac5421cdb30d4e34b60cef1fe340d
     
       
