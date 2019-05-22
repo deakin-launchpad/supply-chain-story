@@ -92,7 +92,6 @@ a#show-demo2:hover {
   text-decoration: none;
 }
 .zoom-in-right-fade-out {
-  z-index: 1000;
   -webkit-animation-name: zoom-in-right, fade-out;
   animation-name: zoom-in-right, fade-out;
   -webkit-animation-duration: 1.5s;
