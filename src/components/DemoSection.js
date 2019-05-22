@@ -38,7 +38,7 @@ export default class DemoSection extends Component {
           </a>
           {this.state.close ? <a
             id="hide-demo2"
-            href="http://10.137.0.157:4001"
+            href="http://10.137.0.157:4008"
             className="hide-demo hidden-button flex flex-center on-top"
             style={{ transform: "translateX(-100%)" }}
             onClick={this.fullScreen}
