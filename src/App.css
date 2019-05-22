@@ -107,17 +107,21 @@ a#show-demo2:hover {
   position: fixed;
   right: 15px;
   top: 0;
-  height: 70px;
+  height: 30px;
   padding: 0 15px;
   color: #fcd82e;
   background-color: #286ec3;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
   -webkit-transform: translateX(100%);
-  transform: translateX(100%);
+  transform: translateX(-100%);
   font-weight: 300;
   letter-spacing: 0.05em;
-  z-index: 1000;
+  z-index: 10;
+}
+
+.fixed-top{
+  z-index: 1 !important;
 }
 
 a:hover {

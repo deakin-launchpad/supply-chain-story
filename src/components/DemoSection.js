@@ -6,13 +6,15 @@ export default class DemoSection extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      show: false
+      show: false,
+      close: false
     };
   }
   fullScreen = () => {
-    this.setState({ show: !this.state.show });
+    this.setState({ show: !this.state.show, close: !this.state.close  });
   };
   render() {
+    console.log('[SHOW]', this.state)
     return (
       <div style={styles}>
         <div className="full-screen relative">
@@ -21,28 +23,28 @@ export default class DemoSection extends Component {
             src="http://54.42.15.246:3000"
             className={`demo demo2 `}
             style={this.state.show ? framStyle : {}}
+            title="launch-demo"
             onClick={this.fullScreen}
-            title="launchdemo"
           />
           <a
             id="show-demo2"
             href="#demo"
             className={`demo-link demo-link2 page-scroll ${
               this.state.show ? "zoom-in-right-fade-out" : ""
-            }`}
+              }`}
             onClick={this.fullScreen}
           >
             Launch Demo
           </a>
-          {/* <a
+          {this.state.close ? <a
             id="hide-demo2"
-            href="#demo"
+            href="http://10.137.0.157:4001"
             className="hide-demo hidden-button flex flex-center on-top"
-            style={{ transform: "translateX(100%)" }}
+            style={{ transform: "translateX(-100%)" }}
             onClick={this.fullScreen}
           >
             Close
-          </a> */}
+          </a>:null}
         </div>
       </div>
     );
@@ -76,7 +78,7 @@ const styles = {
 
 const framStyle = {
   position: "fixed",
-  zIndex: 10000,
+  zIndex: 1,
   left: "0px",
   top: "0px",
   transform: "scale(1)"
